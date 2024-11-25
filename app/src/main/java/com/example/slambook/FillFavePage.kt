@@ -8,6 +8,10 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.slambook.databinding.ActivityFillFavePageBinding
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
 
 class FillFavePage : AppCompatActivity() {
 
@@ -39,6 +43,7 @@ class FillFavePage : AppCompatActivity() {
         if (sports.isEmpty() || color.isEmpty() || food.isEmpty() || comfortFood.isEmpty() || place.isEmpty() || hobbies.isEmpty()) {
             Toast.makeText(this, "All fields must be filled out", Toast.LENGTH_SHORT).show()
         } else {
+
 
             // Store the data in SharedPreferences
             val sharedPreferences = getSharedPreferences("SlamBookPrefs", Context.MODE_PRIVATE)

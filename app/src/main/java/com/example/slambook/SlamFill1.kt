@@ -20,7 +20,7 @@ class SlamFill1 : AppCompatActivity() {
 
         // Set up the "Next" button to save data
         binding.nextButton.setOnClickListener {
-            saveData() // Call the saveData function when the button is clicked
+            saveData()
         }
     }
 
