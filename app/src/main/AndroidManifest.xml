@@ -7,25 +7,25 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Memoire"
+        android:roundIcon="@mipmap/ic_launcher_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SlamBook"
         tools:targetApi="31">
+        <activity
+            android:name=".SecondLanding"
+            android:exported="false" />
+        <activity
+            android:name=".FirstLanding"
+            android:exported="false" />
+        <activity
+            android:name=".FriendsInfo"
+            android:exported="false" />
         <activity
             android:name=".InfoSlam"
             android:exported="false" />
         <activity
             android:name=".SlamFields"
-            android:exported="false" />
-        <activity
-            android:name=".UserInfoSECTION"
-            android:exported="false" />
-        <activity
-            android:name=".FillFavePage"
-            android:exported="false" />
-        <activity
-            android:name=".SlamFill1"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

@@ -5,18 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/bgforall"
     tools:context=".SlamFields">
 
     <ImageButton
         android:id="@+id/back"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="10dp"
-        android:src="@drawable/ic_back1"
-        android:scaleType="fitXY"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/backbtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +41,7 @@
                 android:id="@+id/cardView"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                app:cardBackgroundColor="@color/violet"
+                app:cardBackgroundColor="@color/orange"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -82,7 +82,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/heavitas1"
                 android:text="@string/name_people_call_you"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -117,7 +117,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/heavitas1"
                 android:text="@string/hometown"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
@@ -129,7 +129,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/heavitas1"
                 android:text="@string/gender"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editText_Age" />
@@ -165,7 +165,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/heavitas1"
                 android:text="@string/age"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editText_Hometown"
@@ -188,6 +188,7 @@
                 android:background="@drawable/edittext_underline"
                 android:hint="@string/AGE"
                 android:inputType="number"
+                android:maxLength="2"
                 android:textColor="@color/violet"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -197,6 +198,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="@string/your_gender_identity"
                 android:textColor="@color/black"
                 android:textSize="13sp"
@@ -218,7 +220,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
-                app:cardBackgroundColor="@color/violet"
+                app:cardBackgroundColor="@color/orange"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/spinnergender">
@@ -233,7 +235,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/heavitas1"
-                        android:text="Personal Info"
+                        android:text="Favorites"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
                 </FrameLayout>
@@ -245,7 +247,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/heavitas1"
                 android:text="Color"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
 
                 app:layout_constraintStart_toStartOf="parent"
@@ -271,7 +273,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/heavitas1"
                 android:text="Food"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editText_Color" />
@@ -295,7 +297,7 @@
                 android:fontFamily="@font/heavitas1"
                 android:layout_marginTop="20dp"
                 android:text="Comfort Food"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/editText_Food" />
@@ -306,7 +308,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/edittext_underline"
                 android:ems="10"
-                android:hint="Place"
+                android:hint="Comfort Food"
                 android:inputType="text"
                 android:textColor="@color/violet"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -320,7 +322,7 @@
                 android:fontFamily="@font/heavitas1"
                 android:layout_marginTop="20dp"
                 android:text="Hobbies"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/editText_Place" />
@@ -345,7 +347,7 @@
                 android:fontFamily="@font/heavitas1"
                 android:layout_marginTop="20dp"
                 android:text="Sports"
-                android:textColor="@color/violet"
+                android:textColor="@color/orange"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/editText_Hobbies" />
@@ -370,6 +372,8 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="Done"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/softorange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

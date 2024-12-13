@@ -5,5 +5,11 @@
     <color name="violet">#411238</color>
     <color name="lightvio">#8f5282</color>
     <color name="skyblue">#b9c6dc</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="softpink">#FFC0CB</color>
+    <color name="neonpink">#FF3399</color>
+    <color name="softorange">#fed9b9</color>
+    <color name="orange">#ff7f50</color>
+    <color name="medyoorange">#db7c53</color>
 
 </resources>
