@@ -21,7 +21,6 @@ class InfoSlam : AppCompatActivity() {
         if (name.isEmpty() || age.isEmpty() || extraField.isEmpty()) {
             Toast.makeText(this, "All fields must be filled out", Toast.LENGTH_SHORT).show()
             } else {
-                // Proceed with valid data
                 Toast.makeText(this, "Data submitted successfully!", Toast.LENGTH_SHORT).show()
             }
         }

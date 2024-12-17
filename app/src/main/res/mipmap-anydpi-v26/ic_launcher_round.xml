@@ -3,4 +3,5 @@
     <background android:drawable="@drawable/memoire" />
     <foreground android:drawable="@drawable/memoire" />
     <monochrome android:drawable="@drawable/memoire" />
+
 </adaptive-icon>

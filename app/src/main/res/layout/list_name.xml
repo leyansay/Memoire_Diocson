@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="52dp"
-            android:text="Date"
+            android:text="@string/date"
             android:textColor="@android:color/darker_gray"
             android:textSize="8sp"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -46,16 +46,13 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        // Load data from SharedPreferences
+
         val personalInfoList = loadPersonalInfoList()
 
         // Set up RecyclerView with adapter
         val adapter = PersonalInfoAdapter(personalInfoList, this) // Pass 'this' as context (HomeActivity context)
         binding.recyclerView.adapter = adapter
     }
-
-
-
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)

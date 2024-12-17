@@ -94,7 +94,6 @@
                 android:text="@string/share_the_nickname_or_name_everyone_uses_to_call_you"
                 android:textColor="@color/black"
                 android:textSize="13sp"
-
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 

@@ -23,7 +23,7 @@
         android:id="@+id/emptyTextViewHolder"
         android:layout_width="172dp"
         android:layout_height="154dp"
-        android:text="No data available"
+        android:text="@string/no_data_available"
         android:visibility="gone"
         tools:ignore="MissingConstraints" />
 

@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:fontFamily="@font/quicksandbold"
-        android:text="slambook today"
+        android:text="@string/slambook_today"
         android:textColor="@color/orange"
         android:textSize="28sp"
         android:textStyle="bold"

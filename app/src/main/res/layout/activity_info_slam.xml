@@ -43,7 +43,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/heavitas1"
-                        android:text="Personal Info"
+                        android:text="@string/personal_info"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
                 </FrameLayout>

@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.getStartedButton.setOnClickListener{
             val home = Intent(this, FirstLanding::class.java)
             startActivity(home)

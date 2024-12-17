@@ -19,7 +19,6 @@ class PersonalInfoAdapter(
     inner class PersonalInfoViewHolder(val binding: ListNameBinding) :
         RecyclerView.ViewHolder(binding.root) {
         init {
-            // Set up click listener on the item view
             binding.root.setOnClickListener {
                 val position = adapterPosition
                 if (position != RecyclerView.NO_POSITION) {

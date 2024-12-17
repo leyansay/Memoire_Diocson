@@ -309,7 +309,6 @@
 
     </androidx.cardview.widget.CardView>
 
-
     <Button
         android:id="@+id/updateBtn"
         android:layout_width="160dp"
@@ -317,7 +316,7 @@
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/medyoorange"
         android:gravity="center"
-        android:text="Update"
+        android:text="@string/update"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

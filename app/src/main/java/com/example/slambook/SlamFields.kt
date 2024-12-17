@@ -38,10 +38,8 @@ class SlamFields : AppCompatActivity() {
             val food = binding.editTextFood.text.toString().trim()
             val hobbies = binding.editTextHobbies.text.toString().trim()
             val sports = binding.editTextSports.text.toString().trim()
-
             var isValid = true
 
-            // Use when to validate each field
             when {
                 name.isEmpty() -> {
                     binding.name.error = "This field cannot be empty"

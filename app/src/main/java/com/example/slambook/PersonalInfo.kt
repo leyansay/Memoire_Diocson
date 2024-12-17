@@ -28,7 +28,6 @@ data class PersonalInfo(
         parcel.readString() ?: "",
         parcel.readString() ?: ""
     )
-
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(name)
         parcel.writeString(nickname)
@@ -44,7 +43,6 @@ data class PersonalInfo(
     }
 
     override fun describeContents(): Int = 0
-
     companion object CREATOR : Parcelable.Creator<PersonalInfo> {
         override fun createFromParcel(parcel: Parcel): PersonalInfo {
             return PersonalInfo(parcel)

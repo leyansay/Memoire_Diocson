@@ -25,7 +25,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/quicksandbold"
-        android:text="Start Your Slam Journey Now!"
+        android:text="@string/start_your_slam_journey_now"
         android:textColor="@color/orange"
         android:textSize="28sp"
         android:textStyle="bold"

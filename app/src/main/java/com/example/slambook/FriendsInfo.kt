@@ -105,7 +105,6 @@ class FriendsInfo : AppCompatActivity() {
         result.putExtra("update_friend", updatedFriend)
         setResult(Activity.RESULT_OK, result) // Return the updated friend to HomeActivity
 
-        // Save to SharedPreferences
         saveUpdatedPersonalInfo(updatedFriend)
 
         finish() // Close the activity and return to HomeActivity

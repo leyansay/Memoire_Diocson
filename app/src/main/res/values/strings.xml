@@ -23,6 +23,12 @@
     <string name="GENDER">Gender</string>
     <string name="AGE">Age</string>
     <string name="get_started">Get Started</string>
+    <string name="update">Update</string>
+    <string name="no_data_available">No data available</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="start_your_slam_journey_now">Start Your Slam Journey Now!</string>
+    <string name="slambook_today">slambook today</string>
+    <string name="date">Date</string>
 
     <string-array name="gender_options">
         <item>Male</item>
